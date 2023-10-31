@@ -16,25 +16,25 @@ namespace edu.PrEjercicio3._2410.Servicios
 
             MenuInterfaz mi = new MenuImplementacion();
 
-            int suma = 0;
+             string aux="";
 
-            k = Convert.ToInt32(Console.ReadLine());
+           
 
-            for (int i = 0; i <= k; i++)
+            for (int i = 1; i <= k; i++)
             {
-                Console.WriteLine(i);
-                for (int j = 0; j<= k; j++)
+                aux = "";
+
+                for (int j = 1; j <= i; j++)
                 {
-                    Console.WriteLine(j + "" +i);
+                    aux = aux + j;
+                    
                 }
 
 
-                 
-               
-                
-                
-            }
+                Console.WriteLine(aux);
 
+            }
+            
             
 
         }    
